@@ -1,0 +1,113 @@
+set_crisis_stage_1_swarm = {
+	set_global_flag = crisis_stage_1_swarm
+	remove_global_flag = crisis_stage_2_swarm
+	remove_global_flag = crisis_stage_3_swarm
+	remove_global_flag = crisis_stage_4_swarm
+}
+set_crisis_stage_1_ai = {
+	set_global_flag = crisis_stage_1_ai
+	remove_global_flag = crisis_stage_2_ai
+	remove_global_flag = crisis_stage_3_ai
+	remove_global_flag = crisis_stage_4_ai
+}
+set_crisis_stage_1_extradimensional = {
+	set_global_flag = crisis_stage_1_extradimensional
+	remove_global_flag = crisis_stage_2_extradimensional
+	remove_global_flag = crisis_stage_3_extradimensional
+	remove_global_flag = crisis_stage_4_extradimensional
+}
+
+set_crisis_stage_2_swarm = {
+	remove_global_flag = crisis_stage_1_swarm
+	set_global_flag = crisis_stage_2_swarm
+	remove_global_flag = crisis_stage_3_swarm
+	remove_global_flag = crisis_stage_4_swarm
+}
+set_crisis_stage_2_ai = {
+	remove_global_flag = crisis_stage_1_ai
+	set_global_flag = crisis_stage_2_ai
+	remove_global_flag = crisis_stage_3_ai
+	remove_global_flag = crisis_stage_4_ai
+}
+set_crisis_stage_2_extradimensional = {
+	remove_global_flag = crisis_stage_1_extradimensional
+	set_global_flag = crisis_stage_2_extradimensional
+	remove_global_flag = crisis_stage_3_extradimensional
+	remove_global_flag = crisis_stage_4_extradimensional
+}
+
+set_crisis_stage_3_swarm= {
+	remove_global_flag = crisis_stage_1_swarm
+	remove_global_flag = crisis_stage_2_swarm
+	set_global_flag = crisis_stage_3_swarm
+	remove_global_flag = crisis_stage_4_swarm
+}
+set_crisis_stage_3_ai = {
+	remove_global_flag = crisis_stage_1_ai
+	remove_global_flag = crisis_stage_2_ai
+	set_global_flag = crisis_stage_3_ai
+	remove_global_flag = crisis_stage_4_ai
+}
+set_crisis_stage_3_extradimensional = {
+	remove_global_flag = crisis_stage_1_extradimensional
+	remove_global_flag = crisis_stage_2_extradimensional
+	set_global_flag = crisis_stage_3_extradimensional
+	remove_global_flag = crisis_stage_4_extradimensional
+}
+
+set_crisis_stage_4_swarm = {
+	remove_global_flag = crisis_stage_1_swarm
+	remove_global_flag = crisis_stage_2_swarm
+	remove_global_flag = crisis_stage_3_swarm
+	set_global_flag = crisis_stage_4_swarm
+}
+set_crisis_stage_4_ai = {
+	remove_global_flag = crisis_stage_1_ai
+	remove_global_flag = crisis_stage_2_ai
+	remove_global_flag = crisis_stage_3_ai
+	set_global_flag = crisis_stage_4_ai
+}
+set_crisis_stage_4_extradimensional = {
+	remove_global_flag = crisis_stage_1_extradimensional
+	remove_global_flag = crisis_stage_2_extradimensional
+	remove_global_flag = crisis_stage_3_extradimensional
+	set_global_flag = crisis_stage_4_extradimensional
+}
+
+end_crisis = {
+	remove_global_flag = crisis_stage_1
+	remove_global_flag = crisis_stage_1_swarm
+	remove_global_flag = crisis_stage_1_ai
+	remove_global_flag = crisis_stage_1_extradimensional
+	remove_global_flag = crisis_stage_2
+	remove_global_flag = crisis_stage_2_swarm
+	remove_global_flag = crisis_stage_2_ai
+	remove_global_flag = crisis_stage_2_extradimensional
+	remove_global_flag = crisis_stage_3
+	remove_global_flag = crisis_stage_3_swarm
+	remove_global_flag = crisis_stage_3_ai
+	remove_global_flag = crisis_stage_3_extradimensional
+	remove_global_flag = crisis_stage_4
+	remove_global_flag = crisis_stage_4_swarm
+	remove_global_flag = crisis_stage_4_ai
+	remove_global_flag = crisis_stage_4_extradimensional
+}
+
+end_crisis_swarm = {
+	remove_global_flag = crisis_stage_1_swarm
+	remove_global_flag = crisis_stage_2_swarm
+	remove_global_flag = crisis_stage_3_swarm
+	remove_global_flag = crisis_stage_4_swarm
+}
+end_crisis_ai = {
+	remove_global_flag = crisis_stage_1_ai
+	remove_global_flag = crisis_stage_2_ai
+	remove_global_flag = crisis_stage_3_ai
+	remove_global_flag = crisis_stage_4_ai
+}
+end_crisis_extradimensional = {
+	remove_global_flag = crisis_stage_1_extradimensional
+	remove_global_flag = crisis_stage_2_extradimensional
+	remove_global_flag = crisis_stage_3_extradimensional
+	remove_global_flag = crisis_stage_4_extradimensional
+}

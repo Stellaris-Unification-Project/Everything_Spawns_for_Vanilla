@@ -1,0 +1,33 @@
+@base_moon_distance = 10
+
+gray_system = {
+	class = "sc_black_hole"
+	name = "Terminus Omega"
+	
+	usage = misc_system_init
+	usage_odds = 0
+
+	flags = { hostile_system }
+	
+	planet = {
+		count = 1
+		class = "pc_black_hole"
+		name = "Inhibitor"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 30 max = 35 }
+		has_ring = no
+	}
+	
+	planet = {
+		class = pc_gray_goo
+		name = "The Final Experiment"
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		init_effect = {
+			add_anomaly = {
+				category = disco_gray_cat
+			}
+		}
+	}
+}

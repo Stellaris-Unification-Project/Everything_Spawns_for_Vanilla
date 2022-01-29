@@ -1,0 +1,26 @@
+namespace = twsf_precursor_comp
+
+country_event = {
+	id = twsf_precursor_comp.0
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_country = {
+			limit = { is_ai = no }
+			country_event = { id = twsf_precursor_comp.1 days = 6 }
+		}
+	}
+}
+
+country_event = {
+	id = twsf_precursor_comp.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = pspmod_precursor_set_sless
+		set_global_flag = pspmod_precursor_set_coprean
+		set_global_flag = pspmod_precursor_set_astanine
+	}
+}
