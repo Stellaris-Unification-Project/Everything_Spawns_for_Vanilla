@@ -22,5 +22,5 @@ tags={
 }
 name="Everything Spawns for Vanilla"
 picture="thumbnail.png"
-supported_version="3.2.*"
+supported_version="3.2.2"
 remote_file_id="1171614584"
