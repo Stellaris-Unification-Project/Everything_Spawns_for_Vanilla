@@ -22,7 +22,7 @@ country_event = {
 		remove_global_flag = prethoryn_approaching_rim
 		set_global_flag = prethoryn_arrival
 		observer_event = { id = observer.29 }
-		every_country = {
+		every_playable_country = {
 			limit = { is_country_type = default }
 			country_event = { id = crisis.18 }
 		}
@@ -112,8 +112,7 @@ country_event = {
 					limit = {
 						OR = {
 							is_country_type = default
-							is_country_type = fallen_empire
-							is_country_type = awakened_fallen_empire
+							is_fallen_empire = yes
 						}
 					}
 					establish_communications_no_message = event_target:prethoryn
@@ -300,7 +299,7 @@ country_event = {
 		set_global_flag = prethoryn_main_invasion
 		set_global_flag = ongoing_prethoryn_invasion
 		observer_event = { id = observer.30 }
-		every_country = {
+		every_playable_country = {
 			limit = { is_country_type = default }
 			country_event = { id = crisis.20 }
 		}
@@ -374,8 +373,7 @@ country_event = {
 				limit = {
 					OR = {
 						is_country_type = default
-						is_country_type = fallen_empire
-						is_country_type = awakened_fallen_empire
+						is_fallen_empire = yes
 					}
 				}
 				establish_communications_no_message = event_target:prethoryn
@@ -758,8 +756,7 @@ country_event = {
 			limit = {
 				any_country = {
 					OR = {
-						is_country_type = fallen_empire
-						is_country_type = awakened_fallen_empire
+						is_fallen_empire = yes
 					}
 				}
 			}
@@ -767,19 +764,18 @@ country_event = {
 			random_country = {
 				limit = {
 					OR = {
-						is_country_type = fallen_empire
-						is_country_type = awakened_fallen_empire
+						is_fallen_empire = yes
 					}
 				}
 				save_global_event_target_as = sentinel_fallen_empire
 			}
-			every_country = {
+			every_playable_country = {
 				limit = { is_country_type = default }
 				establish_communications = event_target:sentinel_fallen_empire
 			}
 		}
 		observer_event = { id = observer.31 }
-		every_country = {
+		every_playable_country = {
 			limit = { is_country_type = default }
 			country_event = { id = crisis.51 days = 1 }
 		}
@@ -816,8 +812,7 @@ country_event = {
 				limit = {
 					OR = {
 						is_country_type = default
-						is_country_type = fallen_empire
-						is_country_type = awakened_fallen_empire
+						is_fallen_empire = yes
 					}
 				}
 				country_event = { id = crisis.211 }

@@ -189,7 +189,7 @@ country_event = {
 				NOT = { has_global_flag = horde_triggered }
 			}
 			observer_event = { id = observer.13 }
-			every_country = {
+			every_playable_country = {
 				limit = { is_country_type = default }
 				establish_communications_no_message = root
 				country_event = { id = marauder.501 }
@@ -197,7 +197,7 @@ country_event = {
 		}
 		else = {
 			observer_event = { id = observer.18 }
-			every_country = {
+			every_playable_country = {
 				limit = { is_country_type = default }
 				establish_communications_no_message = root
 				country_event = { id = marauder.526 }

@@ -6,7 +6,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		random_country = {
+		random_playable_country = {
 			limit = { is_ai = no }
 			country_event = { id = twsf_precursor_comp.1 days = 6 }
 		}

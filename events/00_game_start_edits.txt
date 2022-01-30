@@ -9,7 +9,7 @@ event = {
 	immediate = {
 		set_global_flag = game_started
 
-		every_country = {
+		every_playable_country = {
 			limit = { is_ai = no }
 			country_event = { id = country.900 days = 460 random = 60 }
 		}
@@ -229,7 +229,7 @@ event = {
 	is_triggered_only = yes
 
 	immediate = {
-		every_country = {
+		every_playable_country = {
 			limit = { is_ai = no }
 			random_list = {
 				#1 = { country_event = { id = nomad.1 days = 1 } } # DEBUG
